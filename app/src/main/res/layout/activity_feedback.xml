@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Feedback">
+
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/main_view"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@drawable/gradient2" />
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="200dp"
+            android:contentDescription="@string/feedback"
+            android:src="@drawable/food3" />
+
+        <TextView
+            android:id="@+id/feedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/pompiere"
+            android:gravity="center_horizontal"
+            android:text="@string/feedback"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/good"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/feedback"
+            android:layout_alignParentEnd="true"
+            android:gravity="center_horizontal"
+            android:fontFamily="@font/rajdhani_semibold"
+            android:text="@string/good"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_breakfast_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logo"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="16dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardElevation="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/gif_breakfast"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerVertical="true"
+                    android:background="@color/white"
+                    android:src="@drawable/breakfast" />
+
+                <TextView
+                    android:id="@+id/breakfast"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/rajdhani_semibold"
+                    android:layout_toEndOf="@+id/gif_breakfast"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="@string/breakfast"
+                    android:textAllCaps="true"
+                    android:textColor="@color/peach"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:layout_below="@+id/breakfast"
+                    android:layout_toEndOf="@+id/gif_breakfast"
+                    android:layout_width="match_parent"
+                    android:id="@+id/brGrp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+
+                    <RadioButton
+                        android:id="@+id/radio_brkfast_avg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="@string/review_avg"
+                        android:textAllCaps="false"
+                        android:textColor="@color/gray"
+                        android:textSize="20sp"
+                        android:textStyle="normal" />
+
+                    <RadioButton
+                        android:id="@+id/radio_brkfast_good"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="@string/review_good"
+                        android:textAllCaps="false"
+                        android:textColor="@color/gray"
+                        android:textSize="20sp"
+                        android:textStyle="normal" />
+
+                    <RadioButton
+                        android:id="@+id/radio_brkfast_del"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="@string/review_del"
+                        android:textAllCaps="false"
+                        android:textColor="@color/gray"
+                        android:textSize="20sp"
+                        android:textStyle="normal" />
+                </RadioGroup>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_lunch_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card_breakfast_item"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardElevation="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/gif_lunch"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerVertical="true"
+                    android:background="@color/white"
+                    android:src="@drawable/lunch" />
+
+                <TextView
+                    android:id="@+id/lunch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_toEndOf="@+id/gif_lunch"
+                    android:gravity="center_vertical"
+                    android:text="@string/lunch"
+                    android:fontFamily="@font/rajdhani_semibold"
+                    android:textAllCaps="true"
+                    android:textColor="@color/peach"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:layout_below="@+id/lunch"
+                    android:layout_toEndOf="@+id/gif_lunch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:id="@+id/lnGrp"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/radio_lunch_avg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="@string/review_avg"
+                        android:textAllCaps="false"
+                        android:textColor="@color/gray"
+                        android:textSize="20sp"
+                        android:textStyle="normal" />
+
+                    <RadioButton
+                        android:id="@+id/radio_lunch_good"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="@string/review_good"
+                        android:textAllCaps="false"
+                        android:textColor="@color/gray"
+                        android:textSize="20sp"
+                        android:textStyle="normal" />
+
+                    <RadioButton
+                        android:id="@+id/radio_lunch_del"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="@string/review_del"
+                        android:textAllCaps="false"
+                        android:textColor="@color/gray"
+                        android:textSize="20sp"
+                        android:textStyle="normal" />
+                </RadioGroup>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_snack_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card_lunch_item"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardElevation="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/gif_snack"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerVertical="true"
+                    android:background="@color/white"
+                    android:src="@drawable/abc1" />
+
+                <TextView
+                    android:id="@+id/snack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_toEndOf="@+id/gif_snack"
+                    android:gravity="center_vertical"
+                    android:text="@string/snacks"
+                    android:fontFamily="@font/rajdhani_semibold"
+                    android:textAllCaps="true"
+                    android:textColor="@color/peach"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:layout_below="@+id/snack"
+                    android:layout_toEndOf="@+id/gif_snack"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sngrp"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/radio_snack_avg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="@string/review_avg"
+                        android:textAllCaps="false"
+                        android:textColor="@color/gray"
+                        android:textSize="20sp"
+                        android:textStyle="normal" />
+
+                    <RadioButton
+                        android:id="@+id/radio_snack_good"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="@string/review_good"
+                        android:textAllCaps="false"
+                        android:textColor="@color/gray"
+                        android:textSize="20sp"
+                        android:textStyle="normal" />
+
+                    <RadioButton
+                        android:id="@+id/radio_snack_del"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="@string/review_del"
+                        android:textAllCaps="false"
+                        android:textColor="@color/gray"
+                        android:textSize="20sp"
+                        android:textStyle="normal" />
+                </RadioGroup>
+
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_dinner_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card_snack_item"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="30dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardElevation="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/gif_dinner"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerVertical="true"
+                    android:background="@color/white"
+                    android:src="@drawable/dinner2" />
+
+                <TextView
+                    android:id="@+id/dinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_toEndOf="@+id/gif_dinner"
+                    android:gravity="center_vertical"
+                    android:text="@string/dinner"
+                    android:textAllCaps="true"
+                    android:textColor="@color/peach"
+                    android:textSize="25sp"
+                    android:fontFamily="@font/rajdhani_semibold"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/dngrp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/dinner"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_toEndOf="@+id/gif_dinner"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/radio_dinner_avg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="@string/review_avg"
+                        android:textAllCaps="false"
+                        android:textColor="@color/gray"
+                        android:textSize="20sp"
+                        android:textStyle="normal" />
+
+                    <RadioButton
+                        android:id="@+id/radio_dinner_good"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="@string/review_good"
+                        android:textAllCaps="false"
+                        android:textColor="@color/gray"
+                        android:textSize="20sp"
+                        android:textStyle="normal" />
+
+                    <RadioButton
+                        android:id="@+id/radio_dinner_del"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:text="@string/review_del"
+                        android:textAllCaps="false"
+                        android:textColor="@color/gray"
+                        android:textSize="20sp"
+                        android:textStyle="normal" />
+                </RadioGroup>
+
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <com.spark.submitbutton.SubmitButton
+            android:id="@+id/submit_feedback"
+            android:layout_width="150dp"
+            android:onClick="submitFeedback"
+            android:layout_height="80dp"
+            android:layout_below="@+id/card_dinner_item"
+            android:layout_marginTop="-43dp"
+            android:layout_marginBottom="20dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/submit"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:sub_btn_background="@color/peach"
+            app:sub_btn_duration="3000"
+            app:sub_btn_line_color="@color/peach"
+            app:sub_btn_ripple_color="@color/peach"
+            app:sub_btn_tick_color="@color/white" />
+
+
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_feedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@drawable/home_white"
+        />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

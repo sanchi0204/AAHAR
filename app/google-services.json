@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "25617635948",
+    "firebase_url": "https://internfood-5c0cd.firebaseio.com",
+    "project_id": "internfood-5c0cd",
+    "storage_bucket": "internfood-5c0cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25617635948:android:d2c0d5f6463052ef4c9649",
+        "android_client_info": {
+          "package_name": "com.example.intern_food"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "25617635948-5h4nqsi86pilrfbpgdlhtob3preq7jsi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.intern_food",
+            "certificate_hash": "2cde143e4cf881055daecc29500b6e13de470788"
+          }
+        },
+        {
+          "client_id": "25617635948-a2l45msa3ni3tst4cq96al08o27jicg2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.intern_food",
+            "certificate_hash": "f521eece9548609ae7a333623c23af5be4b3542c"
+          }
+        },
+        {
+          "client_id": "25617635948-18bfuej33jrfimnur3lbqqpbqf64r784.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCl-2pqo-4pd-NaKhW_sKcyeqBTxGfCKnI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "25617635948-18bfuej33jrfimnur3lbqqpbqf64r784.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

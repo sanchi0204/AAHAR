@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Feedback">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+<!--        <View-->
+<!--            android:id="@+id/main_view"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="300dp"-->
+<!--            android:background="@drawable/gradient2"/>-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/logo"-->
+<!--            android:contentDescription="@string/feedback"-->
+<!--            android:layout_width="200dp"-->
+<!--            android:layout_height="200dp"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_marginTop="200dp"-->
+<!--            android:src="@drawable/food3"/>-->
+<!--        <TextView-->
+<!--            android:id="@+id/feedback"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:gravity="center_horizontal"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textSize="30sp"-->
+<!--            android:text="@string/feedback"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:layout_marginTop="50dp"-->
+<!--            />-->
+
+
+<!--        <TextView-->
+<!--            android:id="@+id/good"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:gravity="center_horizontal"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textSize="22sp"-->
+<!--            android:text="@string/good"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:layout_below="@+id/feedback"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            />-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_breakfast_item"
+            android:layout_below="@+id/logo"
+            app:cardBackgroundColor="@color/white"
+            app:cardElevation="10dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/gif_breakfast"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/breakfast"
+                    android:background="@color/white"
+                    />
+
+                <TextView
+                    android:id="@+id/breakfast"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/breakfast"
+                    android:textSize="20sp"
+                    android:layout_toEndOf="@+id/gif_breakfast"
+                    android:gravity="center_vertical"
+                    android:layout_centerVertical="true"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_vertical"
+                    android:textAllCaps="true"
+                    android:textColor="@color/peach"/>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_lunch_item"
+            android:layout_below="@+id/card_breakfast_item"
+            app:cardBackgroundColor="@color/white"
+            app:cardElevation="10dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/gif_lunch"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/lunch"
+                    android:background="@color/white"
+                    />
+
+                <TextView
+                    android:id="@+id/lunch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/lunch"
+                    android:textSize="20sp"
+                    android:layout_toEndOf="@+id/gif_lunch"
+                    android:gravity="center_vertical"
+                    android:layout_centerVertical="true"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_vertical"
+                    android:textAllCaps="true"
+                    android:textColor="@color/peach"/>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_snack_item"
+            android:layout_below="@+id/card_lunch_item"
+            app:cardBackgroundColor="@color/white"
+            app:cardElevation="10dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/gif_snack"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/abc1"
+                    android:background="@color/white"
+                    />
+
+                <TextView
+                    android:id="@+id/snack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/snacks"
+                    android:textSize="20sp"
+                    android:layout_toEndOf="@+id/gif_snack"
+                    android:gravity="center_vertical"
+                    android:layout_centerVertical="true"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_vertical"
+                    android:textAllCaps="true"
+                    android:textColor="@color/peach"/>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_dinner_item"
+            android:layout_below="@+id/card_snack_item"
+            app:cardBackgroundColor="@color/white"
+            app:cardElevation="10dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/gif_dinner"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/dinner2"
+                    android:background="@color/white"
+                    />
+
+                <TextView
+                    android:id="@+id/dinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/dinner"
+                    android:textSize="20sp"
+                    android:layout_toEndOf="@+id/gif_dinner"
+                    android:gravity="center_vertical"
+                    android:layout_centerVertical="true"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_vertical"
+                    android:textAllCaps="true"
+                    android:textColor="@color/peach"/>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card_dinner_item"
+            android:id="@+id/feedback_fragment"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="10dp"/>
+
+    </RelativeLayout>
+</ScrollView>

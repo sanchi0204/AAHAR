@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Suggestions">
+
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/main_view"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@drawable/gradient2" />
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="200dp"
+            android:contentDescription="@string/suggestions_text"
+            android:src="@drawable/food3" />
+
+        <TextView
+            android:id="@+id/suggest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/pompiere"
+            android:gravity="center_horizontal"
+            android:text="@string/suggestions_text"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/improve"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/suggest"
+            android:layout_alignParentEnd="true"
+            android:fontFamily="@font/rajdhani_semibold"
+            android:gravity="center_horizontal"
+            android:text="@string/improve"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/layout_suggestion_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="16dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:contentDescription="@string/suggestions_text"
+                android:src="@drawable/create" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/text_layout_suggestion_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/suggestion_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/suggestion_title"
+                    android:inputType="text"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:textColor="@color/peach"
+                    android:textColorHint="@color/grey"
+                    android:fontFamily="@font/rajdhani_semibold"
+                    android:textSize="22sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_suggestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_suggestion_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="16dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:contentDescription="@string/suggestions_text"
+                android:src="@drawable/create" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/text_layout_suggestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/suggestion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/suggestions_content"
+                    android:inputType="textMultiLine"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:textColor="@color/peach"
+                    android:textColorHint="@color/grey"
+                    android:fontFamily="@font/rajdhani_semibold"
+                    android:textSize="22sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_issue_type"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/layout_suggestion"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/path4"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/issue_symbol"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:contentDescription="@string/suggestions_text"
+                android:src="@drawable/issue" />
+
+            <TextView
+                android:id="@+id/issue_type_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="10dp"
+                android:layout_marginEnd="16dp"
+                android:text="@string/issue_type"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:fontFamily="@font/rambla_bold"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/radio_grp_issue_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_issue_type"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="16dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:text="@string/cleanliness"
+                android:textAllCaps="false"
+                android:textColor="@color/grey"
+                android:textSize="20sp"
+                android:fontFamily="@font/rajdhani_semibold"
+                android:textStyle="normal" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:text="@string/staff"
+                android:textAllCaps="false"
+                android:textColor="@color/grey"
+                android:textSize="20sp"
+                android:fontFamily="@font/rajdhani_semibold"
+                android:textStyle="normal" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:text="@string/food_quality"
+                android:textAllCaps="false"
+                android:textColor="@color/grey"
+                android:textSize="20sp"
+                android:fontFamily="@font/rajdhani_semibold"
+                android:textStyle="normal" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:text="@string/ambience"
+                android:textAllCaps="false"
+                android:textColor="@color/grey"
+                android:textSize="20sp"
+                android:fontFamily="@font/rajdhani_semibold"
+                android:textStyle="normal" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:id="@+id/layout_overall_experience"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/radio_grp_issue_type"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/path4"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/experience_symbol"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:contentDescription="@string/suggestions_text"
+                android:src="@drawable/issue" />
+
+            <TextView
+                android:id="@+id/experience_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="10dp"
+                android:layout_marginEnd="16dp"
+                android:text="@string/overall_experience"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:fontFamily="@font/rambla_bold"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_express"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_overall_experience"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/happy"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:onClick="happy"
+                android:layout_margin="20dp"
+                android:contentDescription="@string/suggestions_text"
+                android:src="@drawable/mood_happy" />
+
+
+            <ImageView
+                android:id="@+id/satisfactory"
+                android:layout_width="50dp"
+                android:onClick="satis"
+                android:layout_height="50dp"
+                android:layout_margin="20dp"
+                android:contentDescription="@string/suggestions_text"
+                android:src="@drawable/mood_satisfy" />
+
+            <ImageView
+                android:id="@+id/nuetral"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="20dp"
+                android:onClick="neut"
+                android:contentDescription="@string/suggestions_text"
+                android:src="@drawable/mood_nuetral" />
+
+            <ImageView
+                android:id="@+id/sad"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="20dp"
+                android:onClick="sad"
+                android:contentDescription="@string/suggestions_text"
+                android:src="@drawable/mood_bad" />
+
+
+        </LinearLayout>
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/layout_edit"-->
+<!--            android:layout_width="300dp"-->
+<!--            android:layout_height="60dp"-->
+<!--            android:layout_below="@+id/layout_express"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:background="@drawable/path4"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/edit_symbol"-->
+<!--                android:layout_width="30dp"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:layout_gravity="center_vertical"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:layout_marginEnd="10dp"-->
+<!--                android:layout_marginBottom="20dp"-->
+<!--                android:contentDescription="@string/suggestions_text"-->
+<!--                android:src="@drawable/create_white" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/edit_text"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center_vertical"-->
+<!--                android:layout_margin="10dp"-->
+<!--                android:layout_marginEnd="16dp"-->
+<!--                android:text="@string/edit_"-->
+<!--                android:textAllCaps="false"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textSize="20sp"-->
+<!--                android:textStyle="bold" />-->
+<!--        </LinearLayout>-->
+
+            <com.spark.submitbutton.SubmitButton
+                android:id="@+id/btn_submit"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:onClick="submitSuggestions"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/layout_express"
+                android:text="@string/submit"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:sub_btn_background="@color/peach"
+                app:sub_btn_duration="3000"
+                app:sub_btn_line_color="@color/peach"
+                app:sub_btn_ripple_color="@color/peach"
+                app:sub_btn_tick_color="@color/white"
+                />
+
+
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_suggestions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@drawable/home_white"
+        />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginBottom="10dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardElevation="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--    <ImageView-->
+        <!--        android:id="@+id/image_food"-->
+        <!--        android:layout_width="100dp"-->
+        <!--        android:layout_height="100dp"-->
+        <!--        android:layout_margin="10dp"-->
+        <!--        android:src="@drawable/food3"/>-->
+
+        <TextView
+            android:id="@+id/MealName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="20dp"
+            android:text="@string/breakfast"
+            android:textAllCaps="false"
+            android:textColor="@color/peach"
+            android:textSize="22sp"
+            android:fontFamily="@font/rajdhani_semibold"
+            android:textStyle="normal" />
+        android:layout_toEndOf="@+id/image_food"
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/MealName"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="50dp"
+            android:text="11:00AM"
+            android:textAllCaps="true"
+            android:textColor="@color/grey"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/bar_code"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp"
+            android:src="@drawable/bar" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
