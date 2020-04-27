@@ -4,7 +4,7 @@
     android:id="@+id/main_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient_list"
+    android:background="@drawable/gradient_6"
     android:orientation="vertical">
 
     <ImageView
@@ -39,12 +39,12 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/text"
         android:layout_centerHorizontal="true"
-        android:fontFamily="@font/tillana_semibold"
+        android:fontFamily="@font/roboto_condensed_regular"
         android:text="@string/tagline"
         android:textAllCaps="false"
         android:textColor="@color/white"
-        android:textSize="22sp"
-        android:textStyle="italic" />
+        android:textSize="25sp"
+        android:textStyle="normal" />
 
 
 </RelativeLayout>
