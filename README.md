@@ -23,3 +23,10 @@ The application allows a user to choose their meals for the day, check the menu 
 * [CircleImageView](https://github.com/hdodenhof/CircleImageView)
 * [Custom Navigation Drawer](https://github.com/shrikanth7698/Custom-Navigation-Drawer)
 * [Picasso](https://github.com/square/picasso)
+
+## Team
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
