@@ -17,9 +17,9 @@ The application allows a user to choose their meals for the day, check the menu 
 
 ## Third Party Libraries Used
 
-* [SubmitButton](https://www.google.com)
-* [ExplosionField](https://www.google.com)
-* [android-gif-drawable](https://www.google.com)
-* [CircleImageView](https://www.google.com)
-* [Custom Navigation Drawer](https://www.google.com)
-* [Picasso](https://www.google.com)
+* [SubmitButton](https://github.com/SparkYuan/SubmitButton)
+* [ExplosionField](https://github.com/tyrantgit/ExplosionField)
+* [android-gif-drawable](https://github.com/koral--/android-gif-drawable)
+* [CircleImageView](https://github.com/hdodenhof/CircleImageView)
+* [Custom Navigation Drawer](https://github.com/shrikanth7698/Custom-Navigation-Drawer)
+* [Picasso](https://github.com/square/picasso)
