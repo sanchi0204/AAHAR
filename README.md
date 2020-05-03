@@ -25,8 +25,6 @@ The application allows a user to choose their meals for the day, check the menu 
 * [Picasso](https://github.com/square/picasso)
 
 ## Team
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| Co-Cotributor       |
+| ------------- |
+| Amitabh    |  
