@@ -28,11 +28,11 @@ public class MainActivity extends AppCompatActivity {
 //        app_name=findViewById(R.id.text);
 //        tag_line= findViewById(R.id.text_tag);
 
-        RelativeLayout linearLayout = findViewById(R.id.main_layout);
-        AnimationDrawable animationDrawable = (AnimationDrawable) linearLayout.getBackground();
-        animationDrawable.setEnterFadeDuration(1000);
-        animationDrawable.setExitFadeDuration(2000);
-        animationDrawable.start();
+//        RelativeLayout linearLayout = findViewById(R.id.main_layout);
+//        AnimationDrawable animationDrawable = (AnimationDrawable) linearLayout.getBackground();
+//        animationDrawable.setEnterFadeDuration(1000);
+//        animationDrawable.setExitFadeDuration(2000);
+//        animationDrawable.start();
 
 
 
