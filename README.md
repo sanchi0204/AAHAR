@@ -13,6 +13,13 @@ The application allows a user to choose their meals for the day, check the menu 
 
 # Screenshots
 
-#Libraries Used
 
-* *Third-party libraries:*
+
+# Third Party Libraries Used
+
+* SubmitButton
+* ExplosionField
+* android-gif-drawable
+* CircleImageView
+* Custom Navigation Drawer
+* Picasso
