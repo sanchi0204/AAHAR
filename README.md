@@ -1,5 +1,5 @@
 # AAHAR
-![alt text](https://github.com/sanchi0204/AAHAR/blob/master/app/src/main/res/drawable/food3.png = 250x "AAHAR logo") *A food management Android application.*
+![alt text](https://github.com/sanchi0204/AAHAR/blob/master/app/src/main/res/drawable/food3.png = 100x20) *A food management Android application.*
 
 ## Introduction
 The application allows a user to choose their meals for the day, check the menu and report their suggestions and feedback. The details of each user is recorded in the Admin application and food is served as per the orders for efficient management.
