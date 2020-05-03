@@ -1,5 +1,4 @@
-# AAHAR
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "AAHAR logo")
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "AAHAR logo")# AAHAR
 A food management Android application.
 
 ## Introduction
