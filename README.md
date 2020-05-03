@@ -30,6 +30,8 @@ The application allows a user to choose their meals for the day, check the menu 
 
 ## Working
 
+Following is the link to video which shows the working of app:
+
 ## Third Party Libraries Used
 
 * [SubmitButton](https://github.com/SparkYuan/SubmitButton)
