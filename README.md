@@ -7,12 +7,12 @@ The application allows a user to choose their meals for the day, check the menu 
 
 ## Quick Links
  
-*[Features](https://github.com/sanchi0204/AAHAR#features)
-*[Screenshots](https://github.com/sanchi0204/AAHAR#screenshots)
-*[GIFs](https://github.com/sanchi0204/AAHAR#gifs)
-*[Working](https://github.com/sanchi0204/AAHAR#working)
-*[Third Party Libraries Used](https://github.com/sanchi0204/AAHAR#third-party-libraries-used)
-*[Contributors](https://github.com/sanchi0204/AAHAR#contributors)
+* [Features](https://github.com/sanchi0204/AAHAR#features)
+* [Screenshots](https://github.com/sanchi0204/AAHAR#screenshots)
+* [GIFs](https://github.com/sanchi0204/AAHAR#gifs)
+* [Working](https://github.com/sanchi0204/AAHAR#working)
+* [Third Party Libraries Used](https://github.com/sanchi0204/AAHAR#third-party-libraries-used)
+* [Contributors](https://github.com/sanchi0204/AAHAR#contributors)
 
 ## Features
 
