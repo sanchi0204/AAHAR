@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Nothing_to_show">
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gif_nothing"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/white"
+        android:src="@drawable/show" />
+
+    <LinearLayout
+        android:id="@+id/sorry_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/gif_nothing"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/build"
+            />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sorry"
+        android:fontFamily="@font/rajdhani_semibold"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:textAllCaps="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_gravity="center_vertical"
+        />
+    </LinearLayout>
+    <TextView
+        android:layout_below="@+id/sorry_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nothing"
+        android:textColor="@color/grey"
+        android:fontFamily="@font/rajdhani_medium"
+        android:textStyle="normal"
+        android:textSize="30sp"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"
+        />
+
+
+</RelativeLayout>

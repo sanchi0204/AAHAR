@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/white"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="20dp"
+    android:padding="10dp"
+    android:layout_margin="16dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/user_profile"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/profile"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sampLe_name"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:textSize="22sp"
+            android:fontFamily="@font/rajdhani_semibold"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/user_profile"/>
+        <TextView
+            android:id="@+id/user_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sample_email"
+            android:textColor="@color/grey"
+            android:fontFamily="@font/rajdhani_semibold"
+            android:textStyle="normal"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+
+            android:layout_marginTop="10dp"
+            android:drawableStart="@drawable/email"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/user_profile"
+            android:layout_below="@+id/user_name"/>
+        <TextView
+            android:id="@+id/user_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sample_phone"
+            android:textColor="@color/grey"
+            android:textStyle="normal"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/rajdhani_semibold"
+            android:drawableStart="@drawable/phone"
+            android:layout_toEndOf="@+id/user_profile"
+            android:layout_below="@+id/user_email"/>
+
+        <TextView
+            android:id="@+id/user_branch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sample_branch"
+            android:textColor="@color/grey"
+            android:textStyle="normal"
+            android:textAllCaps="true"
+            android:drawableStart="@drawable/branch_grey"
+            android:textSize="20sp"
+            android:fontFamily="@font/rajdhani_semibold"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/user_profile"
+            android:layout_below="@+id/user_phone"/>
+
+        <TextView
+            android:id="@+id/user_room_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sample_room_no"
+            android:textColor="@color/grey"
+            android:textStyle="normal"
+            android:textAllCaps="true"
+            android:drawableStart="@drawable/home_grey"
+            android:textSize="20sp"
+            android:fontFamily="@font/rajdhani_semibold"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/user_profile"
+            android:layout_below="@+id/user_branch"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:textSize="22sp"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:text="@string/edit"
+            android:fontFamily="@font/rajdhani_semibold"
+            android:layout_below="@+id/user_room_no"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="20dp"
+            android:background="@color/blue"/>
+
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>
