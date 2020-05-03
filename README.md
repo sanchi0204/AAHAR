@@ -1,5 +1,5 @@
 # AAHAR
-<img src="https://github.com/sanchi0204/AAHAR/blob/master/app/src/main/res/drawable/food3.png" width="200" height="200" />
+<img src="https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/app/src/main/res/drawable/food3.png" width="200" height="200" />
 A food management Android application.
 
 ## Introduction
