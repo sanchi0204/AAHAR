@@ -30,6 +30,8 @@ The application allows a user to choose their meals for the day, check the menu 
 
 <img src="https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/Screenshots/navbar.jpg" width="300" height="500" /> <img src="https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/Screenshots/dashboard.jpg" width="300" height="500" /> <img src="https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/Screenshots/meal.jpg" width="300" height="500" />
 
+<img src="https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/Screenshots/menu.jpg" width="300" height="500" /> <img src="https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/Screenshots/suggestions.jpg" width="300" height="500" /> <img src="https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/Screenshots/feedback_main.jpg" width="300" height="500" />
+
 ## GIFs
 
 ## Third Party Libraries Used
