@@ -25,11 +25,10 @@ The application allows a user to choose their meals for the day, check the menu 
 * All the information is stored in the database via the Firebase Database and can be reflected in the Admin app(SAAHAR).
 
 ## Screenshots
-<img src="https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/app/src/main/res/drawable/food3.png" width="200" height="200" />
 
 | AAHAR app       | 
 | ------------- |
-| <img src="https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/Screenshots/main_activity.jpg" width="200" height="200" />  |
+| <img src="https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/Screenshots/main_activity.jpg" width="500" height="700" />  |
 
 ## GIFs
 
