@@ -33,7 +33,7 @@ The application allows a user to choose their meals for the day, check the menu 
 
 <img src="https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/Screenshots/menu.jpg" width="300" height="500" /> <img src="https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/Screenshots/suggestions.jpg" width="300" height="500" /> <img src="https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/Screenshots/feedback_main.jpg" width="300" height="500" />
 
-|![Splashscreen](https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/Screenshots/navbar.jpg)|![SignUp Screen](Screenshots/sign_in_up.jpg)|![Login Page](Screenshots/sign_in.jpg)| 
+|![Splashscreen](https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/Screenshots/navbar.jpg)|![SignUp Screen](<img src="https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/Screenshots/navbar.jpg" width="300" height="500" />|![Login Page](Screenshots/sign_in.jpg)| 
 |---|---|---|
 |![Home Page](Screenshots/Home%20Page.png)|![Profile Page](Screenshots/Profile%20Page.png)|![Edit Profile Page](Screenshots/Edit%20Profile%20Page.png)| 
 |![Relations Page](Screenshots/Relations%20Page.png)|![Tasks Page](Screenshots/Tasks%20Page.png)|![Members Page](Screenshots/Members%20Page.png)
