@@ -29,11 +29,16 @@ The application allows a user to choose their meals for the day, check the menu 
 
 ### AAHAR
 
-<img src="https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/Screenshots/main_activity.jpg" width="300" height="500" /> <img src="https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/Screenshots/sign_in_up.jpg" width="300" height="500" /> <img src="https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/Screenshots/sign_in.jpg" width="300" height="500" />
-
 <img src="https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/Screenshots/navbar.jpg" width="300" height="500" /> <img src="https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/Screenshots/dashboard.jpg" width="300" height="500" /> <img src="https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/Screenshots/meal.jpg" width="300" height="500" />
 
 <img src="https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/Screenshots/menu.jpg" width="300" height="500" /> <img src="https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/Screenshots/suggestions.jpg" width="300" height="500" /> <img src="https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/Screenshots/feedback_main.jpg" width="300" height="500" />
+
+|![Splashscreen](https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/Screenshots/navbar.jpg)|![SignUp Screen](<img src="https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/Screenshots/navbar.jpg" width="300" height="500" />|![Login Page](Screenshots/sign_in.jpg)| 
+|---|---|---|
+|<img src="https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/Screenshots/navbar.jpg" width="300" height="500" />)|<img src="https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/Screenshots/dashboard.jpg" width="300" height="500" />|<img src="https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/Screenshots/meal.jpg" width="300" height="500" />| 
+|![Relations Page](Screenshots/Relations%20Page.png)|![Tasks Page](Screenshots/Tasks%20Page.png)|![Members Page](Screenshots/Members%20Page.png)
+|![Member Profile](Screenshots/Member%20Profile%20Page.png)|![Send Request Page](Screenshots/Send%20Request%20Page.png)|![Requests Page](Screenshots/Requests%20Page.png)|
+![Settings Screen](Screenshots/Settings%20Screen.png)|![About Page](Screenshots/About%20Page.png)|![Change Password Page](Screenshots/Change%20Password%20Page.png)|
 
 ### SHAAHAR
 
