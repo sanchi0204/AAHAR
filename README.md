@@ -8,10 +8,6 @@ The application allows a user to choose their meals for the day, check the menu 
 ## Quick Links
  
 * [Features](https://github.com/sanchi0204/AAHAR#features)
-* [Screenshots](https://github.com/sanchi0204/AAHAR#screenshots)
-     * [AAHAR Screenshots](https://github.com/sanchi0204/AAHAR#aahar-1)
-     * [SHAAHAR Screenshots](https://github.com/sanchi0204/AAHAR#saahar)
-* [GIFs](https://github.com/sanchi0204/AAHAR#gifs)
 * [Third Party Libraries Used](https://github.com/sanchi0204/AAHAR#third-party-libraries-used)
 * [Contributors](https://github.com/sanchi0204/AAHAR#contributors)
 
@@ -25,32 +21,6 @@ The application allows a user to choose their meals for the day, check the menu 
 * The app allows user to give feedback and suggestions regarding the hospitality services.
 * All the information is stored in the database via the Firebase Database and can be reflected in the Admin app(SAAHAR).
 
-## Screenshots
-
-### AAHAR
-
-<img src="https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/Screenshots/navbar.jpg" width="300" height="500" /> <img src="https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/Screenshots/dashboard.jpg" width="300" height="500" /> <img src="https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/Screenshots/meal.jpg" width="300" height="500" />
-
-<img src="https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/Screenshots/menu.jpg" width="300" height="500" /> <img src="https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/Screenshots/suggestions.jpg" width="300" height="500" /> <img src="https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/Screenshots/feedback_main.jpg" width="300" height="500" />
-
-|![Splashscreen](https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/Screenshots/navbar.jpg)|![SignUp Screen](<img src="https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/Screenshots/navbar.jpg" width="300" height="500" />|![Login Page](Screenshots/sign_in.jpg)| 
-|---|---|---|
-|<img src="https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/Screenshots/navbar.jpg" width="300" height="500" />)|<img src="https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/Screenshots/dashboard.jpg" width="300" height="500" />|<img src="https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/Screenshots/meal.jpg" width="300" height="500" />| 
-|![Relations Page](Screenshots/Relations%20Page.png)|![Tasks Page](Screenshots/Tasks%20Page.png)|![Members Page](Screenshots/Members%20Page.png)
-|![Member Profile](Screenshots/Member%20Profile%20Page.png)|![Send Request Page](Screenshots/Send%20Request%20Page.png)|![Requests Page](Screenshots/Requests%20Page.png)|
-![Settings Screen](Screenshots/Settings%20Screen.png)|![About Page](Screenshots/About%20Page.png)|![Change Password Page](Screenshots/Change%20Password%20Page.png)|
-
-### SHAAHAR
-
-<img src="https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/Screenshots/main_activity_admin.jpg" width="300" height="500" /> <img src="https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/Screenshots/sign_in_up_admin.jpg" width="300" height="500" /> <img src="https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/Screenshots/sign_in_admin.jpg" width="300" height="500" />
-
-<img src="https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/Screenshots/sign_up_admin.jpg" width="300" height="500" /> <img src="https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/Screenshots/dash_admin.jpg" width="300" height="500" /> <img src="https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/Screenshots/navbar_admin.jpg" width="300" height="500" />
-
-<img src="https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/Screenshots/info_admin.jpg" width="300" height="500" /> <img src="https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/Screenshots/menu_admin.jpg" width="300" height="500" /> <img src="https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/Screenshots/empty_page.jpg" width="300" height="500" />
-
-
-## GIFs
-<img src="https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/Screenshots/menu_gif.gif" width="300" height="500" /> <img src="https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/Screenshots/feed_gif.gif" width="300" height="500" /> <img src="https://github.com/sanchi0204/AAHAR/blob/master/AAHAR_main_app/Screenshots/empty_gif.gif" width="300" height="500" />
 
 ## Third Party Libraries Used
 
