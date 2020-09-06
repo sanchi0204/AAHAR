@@ -35,4 +35,5 @@ These are just third party dependencies, the entire list of dependencies is list
 
 ## Contributors
 
+* [Sanchi Rastogi](https://github.com/sanchi0204)
 * [Amitabh Sharma](https://github.com/amitabhs30)
