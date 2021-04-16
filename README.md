@@ -8,7 +8,8 @@ The application allows a user to choose their meals for the day, check the menu 
 ## Quick Links
  
 * [Features](https://github.com/sanchi0204/AAHAR#features)
-* [Screenshots]()
+* [Screenshots](https://github.com/sanchi0204/AAHAR/blob/master/README.md#screenshots)
+* [GIFs]()
 * [Third Party Libraries Used](https://github.com/sanchi0204/AAHAR#third-party-libraries-used)
 * [Contributors](https://github.com/sanchi0204/AAHAR#contributors)
 
@@ -81,8 +82,17 @@ The application allows a user to choose their meals for the day, check the menu 
        <td><img src="https://github.com/sanchi0204/AAHAR/blob/master/Screenshots/info_admin.jpg" width=270 height=480></td>
   </tr>
  </table>
-
-
+ 
+ ## GIFs
+ 
+  <table>   
+  <tr>
+    <td><img src="https://github.com/sanchi0204/AAHAR/blob/master/Screenshots/menu_gif.gif" width=270 height=480></td>
+       <td><img src="https://github.com/sanchi0204/AAHAR/blob/master/Screenshots/feed_gif.gif" width=270 height=480></td>
+       <td><img src="https://github.com/sanchi0204/AAHAR/blob/master/Screenshots/empty_gif.gif" width=270 height=480></td>
+  </tr>
+ </table>
+ 
 ## Third Party Libraries Used
 
 * [SubmitButton](https://github.com/SparkYuan/SubmitButton)
