@@ -24,6 +24,8 @@ The application allows a user to choose their meals for the day, check the menu 
 
 ## Screenshots
 
+###  CUSTOMER APP
+
 <table>   
   <tr>
     <td><img src="https://github.com/sanchi0204/AAHAR/blob/master/Screenshots/main_activity.jpg" width=270 height=480></td>
@@ -33,7 +35,7 @@ The application allows a user to choose their meals for the day, check the menu 
  </table>
   <table>   
   <tr>
-    <td><img src="https://github.com/sanchi0204/AAHAR/blob/master/Screenshots/sign_in_admin.jpg" width=270 height=480></td>
+    <td><img src="https://github.com/sanchi0204/AAHAR/blob/master/Screenshots/sign_in.jpg" width=270 height=480></td>
     <td><img src="https://github.com/sanchi0204/AAHAR/blob/master/Screenshots/navbar.jpg" width=270 height=480></td>
     <td><img src="https://github.com/sanchi0204/AAHAR/blob/master/Screenshots/dashboard.jpg" width=270 height=480></td>
   </tr>
@@ -55,6 +57,8 @@ The application allows a user to choose their meals for the day, check the menu 
        <td><img src="https://github.com/sanchi0204/AAHAR/blob/master/Screenshots/suggest_2.jpg" width=270 height=480></td>
   </tr>
  </table>
+ 
+ ### ADMIN APP
  
 <table>   
   <tr>
