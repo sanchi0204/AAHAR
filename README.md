@@ -26,7 +26,7 @@ The application allows a user to choose their meals for the day, check the menu 
 
 <table>   
   <tr>
-    <td><img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/police_splash.png" width=270 height=480></td>
+    <td><img src="https://github.com/sanchi0204/AAHAR/blob/master/Screenshots/main_activity.jpg" width=270 height=480></td>
     <td><img src="https://github.com/sanchi0204/AAHAR/blob/master/Screenshots/sign_in_up.jpg" width=270 height=480></td>
     <td><img src="https://github.com/sanchi0204/AAHAR/blob/master/Screenshots/sign_up.jpg" width=270 height=480></td>
   </tr>
@@ -35,36 +35,46 @@ The application allows a user to choose their meals for the day, check the menu 
   <tr>
     <td><img src="https://github.com/sanchi0204/AAHAR/blob/master/Screenshots/sign_in_admin.jpg" width=270 height=480></td>
     <td><img src="https://github.com/sanchi0204/AAHAR/blob/master/Screenshots/navbar.jpg" width=270 height=480></td>
-    <td><img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/broadcast%20msg.png" width=270 height=480></td>
+    <td><img src="https://github.com/sanchi0204/AAHAR/blob/master/Screenshots/dashboard.jpg" width=270 height=480></td>
   </tr>
  </table>
  <table>   
   <tr>
-    <td><img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/police%20review.png" width=270 height=480></td>
-       <td><img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/priority%20dept.png" width=270 height=480></td>
-       <td><img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/sort%20crime.png" width=270 height=480></td>
+    <td><img src="https://github.com/sanchi0204/AAHAR/blob/master/Screenshots/feedback_1.jpg" width=270 height=480></td>
+       <td><img src="https://github.com/sanchi0204/AAHAR/blob/master/Screenshots/feedback_main.jpg" width=270 height=480></td>
+       <td><img src="https://github.com/sanchi0204/AAHAR/blob/master/Screenshots/feedback.jpg" width=270 height=480></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/sanchi0204/AAHAR/blob/master/Screenshots/meals.jpg" width=270 height=480></td>
+       <td><img src="https://github.com/sanchi0204/AAHAR/blob/master/Screenshots/meal.jpg" width=270 height=480></td>
+       <td><img src="https://github.com/sanchi0204/AAHAR/blob/master/Screenshots/menu_nav.jpg" width=270 height=480></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/sanchi0204/AAHAR/blob/master/Screenshots/menu.jpg" width=270 height=480></td>
+       <td><img src="https://github.com/sanchi0204/AAHAR/blob/master/Screenshots/suggestions.jpg" width=270 height=480></td>
+       <td><img src="https://github.com/sanchi0204/AAHAR/blob/master/Screenshots/suggest_2.jpg" width=270 height=480></td>
   </tr>
  </table>
  
 <table>   
   <tr>
-    <td><img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/police_splash.png" width=270 height=480></td>
+    <td><img src="https://github.com/sanchi0204/AAHAR/blob/master/Screenshots/main_activity_admin.jpg" width=270 height=480></td>
     <td><img src="https://github.com/sanchi0204/AAHAR/blob/master/Screenshots/sign_in_up_admin.jpg" width=270 height=480></td>
     <td><img src="https://github.com/sanchi0204/AAHAR/blob/master/Screenshots/sign_up_admin.jpg" width=270 height=480></td>
   </tr>
  </table>
   <table>   
   <tr>
-    <td><img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/police_map.png" width=270 height=480></td>
+    <td><img src="https://github.com/sanchi0204/AAHAR/blob/master/Screenshots/sign_in_admin.jpg" width=270 height=480></td>
     <td><img src="https://github.com/sanchi0204/AAHAR/blob/master/Screenshots/admin_menu.jpg" width=270 height=480></td>
-    <td><img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/broadcast%20msg.png" width=270 height=480></td>
+    <td><img src="https://github.com/sanchi0204/AAHAR/blob/master/Screenshots/dashboard_admin.jpg" width=270 height=480></td>
   </tr>
  </table>
  <table>   
   <tr>
-    <td><img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/police%20review.png" width=270 height=480></td>
-       <td><img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/priority%20dept.png" width=270 height=480></td>
-       <td><img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/sort%20crime.png" width=270 height=480></td>
+    <td><img src="https://github.com/sanchi0204/AAHAR/blob/master/Screenshots/dash_admin.jpg" width=270 height=480></td>
+       <td><img src="https://github.com/sanchi0204/AAHAR/blob/master/Screenshots/menu_admin.jpg" width=270 height=480></td>
+       <td><img src="https://github.com/sanchi0204/AAHAR/blob/master/Screenshots/info_admin.jpg" width=270 height=480></td>
   </tr>
  </table>
 
