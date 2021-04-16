@@ -8,6 +8,7 @@ The application allows a user to choose their meals for the day, check the menu 
 ## Quick Links
  
 * [Features](https://github.com/sanchi0204/AAHAR#features)
+* [Screenshots]()
 * [Third Party Libraries Used](https://github.com/sanchi0204/AAHAR#third-party-libraries-used)
 * [Contributors](https://github.com/sanchi0204/AAHAR#contributors)
 
@@ -20,6 +21,52 @@ The application allows a user to choose their meals for the day, check the menu 
 * User choices are reflected upon the dashboard.
 * The app allows user to give feedback and suggestions regarding the hospitality services.
 * All the information is stored in the database via the Firebase Database and can be reflected in the Admin app(SAAHAR).
+
+## Screenshots
+
+<table>   
+  <tr>
+    <td><img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/police_splash.png" width=270 height=480></td>
+    <td><img src="https://github.com/sanchi0204/AAHAR/blob/master/Screenshots/sign_in_up.jpg" width=270 height=480></td>
+    <td><img src="https://github.com/sanchi0204/AAHAR/blob/master/Screenshots/sign_up.jpg" width=270 height=480></td>
+  </tr>
+ </table>
+  <table>   
+  <tr>
+    <td><img src="https://github.com/sanchi0204/AAHAR/blob/master/Screenshots/sign_in_admin.jpg" width=270 height=480></td>
+    <td><img src="https://github.com/sanchi0204/AAHAR/blob/master/Screenshots/navbar.jpg" width=270 height=480></td>
+    <td><img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/broadcast%20msg.png" width=270 height=480></td>
+  </tr>
+ </table>
+ <table>   
+  <tr>
+    <td><img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/police%20review.png" width=270 height=480></td>
+       <td><img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/priority%20dept.png" width=270 height=480></td>
+       <td><img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/sort%20crime.png" width=270 height=480></td>
+  </tr>
+ </table>
+ 
+<table>   
+  <tr>
+    <td><img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/police_splash.png" width=270 height=480></td>
+    <td><img src="https://github.com/sanchi0204/AAHAR/blob/master/Screenshots/sign_in_up_admin.jpg" width=270 height=480></td>
+    <td><img src="https://github.com/sanchi0204/AAHAR/blob/master/Screenshots/sign_up_admin.jpg" width=270 height=480></td>
+  </tr>
+ </table>
+  <table>   
+  <tr>
+    <td><img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/police_map.png" width=270 height=480></td>
+    <td><img src="https://github.com/sanchi0204/AAHAR/blob/master/Screenshots/admin_menu.jpg" width=270 height=480></td>
+    <td><img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/broadcast%20msg.png" width=270 height=480></td>
+  </tr>
+ </table>
+ <table>   
+  <tr>
+    <td><img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/police%20review.png" width=270 height=480></td>
+       <td><img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/priority%20dept.png" width=270 height=480></td>
+       <td><img src="https://github.com/sanchi0204/NEETRA/blob/master/Readme_Screenshots/sort%20crime.png" width=270 height=480></td>
+  </tr>
+ </table>
 
 
 ## Third Party Libraries Used
